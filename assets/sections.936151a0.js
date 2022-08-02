@@ -1,0 +1,1 @@
+const t=[{title:"tendencias"},{title:"Peliculas Estadounidenses"},{title:"Continuar Viendo"},{title:"Comedia"},{title:"Mi lista"},{title:"Anime"},{title:"Los 10 mas populares de hoy"},{title:"Nuevos lanzamientos"}];export{t as default};
