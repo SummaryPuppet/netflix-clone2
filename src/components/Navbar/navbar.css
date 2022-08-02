@@ -1,0 +1,34 @@
+.nav-bar {
+  position: fixed;
+  top: 0;
+  background: rgb(20, 20, 20) none repeat scroll 0% 0%;
+  z-index: 3;
+}
+
+.nav-bar-list {
+  display: flex;
+  margin: 0;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-bar-item {
+  display: inline-block;
+  margin: 0 15px;
+  color: rgb(218, 218, 218);
+  transition: color 1s;
+  cursor: pointer;
+}
+
+.nav-bar-item:hover {
+  color: rgb(117, 117, 117);
+}
+
+.enable {
+  color: rgb(246, 246, 246);
+}
+
+.logo {
+  max-width: 8%;
+  cursor: pointer;
+}

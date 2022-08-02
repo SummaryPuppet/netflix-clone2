@@ -1,0 +1,109 @@
+.screen {
+  position: absolute;
+  background-color: #141414;
+  width: 95vw;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 9%;
+  padding: 0;
+  z-index: 1;
+}
+
+.selection {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3.5vw;
+}
+
+.profiles {
+  display: flex;
+  margin: 0 0 3% 0;
+  justify-content: center;
+  width: 100%;
+}
+
+.profile {
+  margin: 1%;
+  cursor: pointer;
+}
+
+.profile-img {
+  height: 136px;
+  width: 136px;
+  background-color: navy;
+}
+
+.profile-img:hover {
+  border: #fff 3px solid;
+}
+
+.profile-name {
+  display: flex;
+  justify-content: center;
+  color: #808080;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.manage-profile {
+  color: #808080;
+  background: none;
+  border: #808080 1px solid;
+  height: 38px;
+  width: 237px;
+  padding: 2px 10px;
+  font-size: 20px;
+}
+
+.manage-profile:hover {
+  color: #fff;
+  border: #fff 1px solid;
+}
+
+.add-profile:hover{
+    background-color: #fff;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  background: linear-gradient(
+    #060606,
+    #070707,
+    #080808,
+    #090909,
+    #0a0a0a,
+    #0b0b0b,
+    #0c0c0c,
+    #0d0d0d,
+    #0e0e0e,
+    #0f0f0f,
+    #101010,
+    #111111,
+    #121212,
+    #131313
+  );
+  left: 0;
+  width: 100%;
+}
+
+.nav-bar-list {
+  display: flex;
+  margin: 0;
+  width: 100vw;
+  flex-direction: row;
+  align-items: center;
+  z-index: 2;
+}
+
+.logoNetflix {
+  max-width: 9%;
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.container{
+    position: relative;
+    left: 3.5%;
+    width: 100vw;
+    height: 80vh;
+    max-width: 40%;
+    margin: 5% 0 2%;
+}
+
+.container-description{
+    color: rgba(246, 246, 246, 246);
+    font-size: 20px;
+    cursor: default;
+}
+
+.container-actions{
+    display: flex;
+    flex-direction: row;
+}
+
+.button-play, .button-more-information{
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 45px;
+    margin: 5px 15px 0 0;
+    cursor: pointer;
+}
+
+.button-play{
+    background: rgba(246, 246, 246, 246);
+}
+.button-more-information{
+    background: rgba(109, 109, 110, .4);
+    color: rgba(246, 246, 246, 246);
+}
+
+.button-play:hover{
+    background: rgba(200, 200, 200, 200);
+}
+.button-more-information:hover{
+    background: rgba(80, 80, 81, .4);
+}
