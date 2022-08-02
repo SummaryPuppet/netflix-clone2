@@ -5,10 +5,10 @@ import { useLogin } from "../../../context/LoginProvider";
 
 function Profile({ name }) {
   const navigate = useNavigate();
-  const { logIn } = useLogin();
+  const { signIn } = useLogin();
 
   const handleClick = () => {
-    logIn();
+    signIn();
     navigate("/");
   };
 

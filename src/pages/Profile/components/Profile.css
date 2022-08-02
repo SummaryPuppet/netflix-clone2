@@ -1,6 +1,8 @@
 .profile {
     margin: 1%;
     cursor: pointer;
+    background-color: transparent;
+    border: 0;
   }
   
   .profile-img {

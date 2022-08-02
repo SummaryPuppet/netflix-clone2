@@ -39,7 +39,9 @@ function Home() {
   useEffect(() => () => setSections([]), []);
 
   useEffect(() => {
-    navigate("/profiles");
+    if (!login){
+      navigate("/profiles")
+    }
   }, []);
 
   return (
