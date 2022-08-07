@@ -2,7 +2,7 @@
 
 My little netflix clone
 
-[Link to the page](https://summarypuppet.github.io/netflix-clone2/profiles)
+[Link to the page](https://summarypuppet.github.io/netflix-clone2/)
 
 ## Develoment Setup
 
